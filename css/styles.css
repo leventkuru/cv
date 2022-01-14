@@ -1,0 +1,39 @@
+/*************TAG SELECTOR*************/
+
+body {
+  background-color: whitesmoke;
+  margin: auto;
+  width: 50%;
+}
+
+hr {
+  background-color: white;
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 10%;
+  color: #F05454;
+}
+h1 {
+  color: #121212;
+}
+h2 {
+  color: #30475E;
+}
+
+h3 {
+  color: grey;
+}
+
+table {
+  border-spacing:20px;
+}
+/*************CLASS SELECTOR*************/
+
+.main-table {
+  border-spacing:20px;
+  text-align: left;
+}
+.sub-table {
+  border-spacing:10px;
+  text-align: center;
+}
