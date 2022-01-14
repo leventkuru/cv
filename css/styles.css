@@ -2,16 +2,17 @@
 
 body {
   background-color: whitesmoke;
+  font-family: 'Trebuchet MS', sans-serif;
   margin: auto;
   width: 50%;
 }
 
 hr {
-  background-color: white;
   border-style: dotted none none;
   border-width: 5px;
   width: 10%;
   color: #F05454;
+  position: relative;
 }
 h1 {
   color: #121212;
@@ -29,11 +30,29 @@ table {
 }
 /*************CLASS SELECTOR*************/
 
+.circular {
+  border-radius: 100%;
+}
 .main-table {
   border-spacing:20px;
   text-align: left;
 }
+.main-table:hover {
+  background-color: whitesmoke;
+}
 .sub-table {
   border-spacing:10px;
   text-align: center;
+}
+.sub-table:hover {
+  background-color: gainsboro;
+}
+.education-list li:hover{
+  background-color: gainsboro;
+}
+
+/*************ID SELECTOR*************/
+
+#heading {
+  color:blue;
 }
